@@ -189,6 +189,50 @@ li {
 .technologies{
     text-decoration: solid;
 }
+/*SECCION DE HABILIDADES*/
+.skills{
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-pink);
+}
+.skills-header{
+    max-width: 150px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.3rem solid var(--main-white);
+}
+.container{
+    position: relative;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-white);
+    flex-wrap: wrap;
+}
+.content{
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+.content img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.content h3{
+    font-size: 18px;
+    margin: 10px;
+    text-transform: uppercase;
+}
 
 /*SECCION DE CONTACTO*/
 .contact-section {
